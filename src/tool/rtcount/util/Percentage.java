@@ -2,7 +2,6 @@ package tool.rtcount.util;
 
 public class Percentage {
 
-	// カプセル化する予定
 	private static double percentRed;
 	private static double percentBlack;
 	private static double percentGreen;

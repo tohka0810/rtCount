@@ -5,14 +5,10 @@ import tool.rtcount.util.Percentage;
 
 public enum Num {
 	/*
-	 * 構造を改善する
 	 * inputNumberを解析して、
 	 * Color, EO, HL, ダズン, Columnの属性の判定を行う
 	 * 属性を引数にしてカウンターの実行
 	 *
-	 * パラメータークラスに値を渡して
-	 * 値を条件分岐→カウンターを振り分け
-	 * NumParam(String color, String evenodd, Sring highlow, String duzzn, String column)
 	 */
 	Num0 { // 0,緑
 		@Override public void exe() {
